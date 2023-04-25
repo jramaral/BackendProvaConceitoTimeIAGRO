@@ -18,3 +18,9 @@ riderModule.iml
 *.sln.docstates
 .vs/
 .vscode/
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+# NuGet Packages
+*.nupkg
