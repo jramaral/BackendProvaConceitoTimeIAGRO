@@ -24,3 +24,4 @@ project.fragment.lock.json
 artifacts/
 # NuGet Packages
 *.nupkg
+/BookStore.API/src/.vs/BookStore.API/v17/.suo
