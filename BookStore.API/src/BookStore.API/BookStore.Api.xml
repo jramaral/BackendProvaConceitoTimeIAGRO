@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore.API</name>
+    </assembly>
+    <members>
+        <member name="M:BookStore.API.Controllers.V1.BookController.BuscaLivroNome(System.String)">
+            <summary>
+            Obtem a lista de books por nome do livro
+            </summary>
+            <param name="nomeLivro">Uma sequencia de caracteres que contenha o nome do livro</param>
+            <response code="200">Se todas as informacoes forem recuperadas com sucesso</response>
+            <response code="400">Se ocorrerem falhas nas validações</response>
+            <response code="500">Se ocorrerem erros de processamento no servidor</response>
+        </member>
+        <member name="M:BookStore.API.Controllers.V1.BookController.BuscaLivroAutor(System.String)">
+            <summary>
+            Obtem a lista de books por autor
+            </summary>
+            <param name="autor">Uma sequencia de caracteres que contenha o nome do author do livro</param>
+            <response code="200">Se todas as informacoes forem recuperadas com sucesso</response>
+            <response code="400">Se ocorrerem falhas nas validações</response>
+            <response code="500">Se ocorrerem erros de processamento no servidor</response>
+        </member>
+        <member name="M:BookStore.API.Controllers.V1.BookController.BuscaLivroIlustrador(System.String)">
+            <summary>
+            Obtem a lista de books por nome do Ilustrador
+            </summary>
+            <param name="ilustrador">Uma sequencia de caracteres que contenha no nome do ilustrador do livro</param>
+            <response code="200">Se todas as informacoes forem recuperadas com sucesso</response>
+            <response code="400">Se ocorrerem falhas nas validações</response>  
+            <response code="500">Se ocorrerem erros de processamento no servidor</response>
+        </member>
+        <member name="M:BookStore.API.Controllers.V1.BookController.BuscaLivroGenero(System.String)">
+            <summary>
+            Obtem a lista de books por nome do Genero
+            </summary>
+            <param name="genero">Uma sequencia de caracteres que contenha no nome do genero do livro</param>
+            <response code="200">Se todas as informacoes forem recuperadas com sucesso</response>
+            <response code="400">Se ocorrerem falhas nas validações</response>
+            <response code="500">Se ocorrerem erros de processamento no servidor</response>
+        </member>
+    </members>
+</doc>
