@@ -16,3 +16,5 @@ riderModule.iml
 *.user
 *.userosscache
 *.sln.docstates
+.vs/
+.vscode/
